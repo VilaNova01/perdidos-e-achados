@@ -1,0 +1,245 @@
+
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+}
+body{
+    font-family: var(--sm-font);
+    background-color: white;
+}
+
+/* button */
+.bg-primary{
+    background-color: var(--pink)!important;
+}
+
+.btn:not(.nav-btns button){
+   
+    padding: 10px 28px;
+    border-radius: 25px;
+   
+}
+
+
+/* text color */
+.text-primary{
+    color: var(--pink)!important;
+}
+
+/* navbar */
+.navbar{
+    -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img{
+    width: 30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: var(--pink)!important;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+/* header */
+#header{
+    background: url(../fotos/perdidos1.jpg) top/cover no-repeat;
+    background-attachment: fixed;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+/* title */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color:rgb(0, 102, 255);
+    left: -20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+/* collection */
+
+.filter-button-group .btn:hover{
+   
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+/* special */
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+   
+}
+.special-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+/* offers */
+#offers{
+    background: url(../fotos/imgPerdido2.png) center/cover no-repeat;  
+}
+#offers .row{
+    min-height: 60vh;
+}
+.offers-content span{
+    font-size: 28px;
+}
+.offers-content h2{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+
+/* about */
+#about{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+
+/* newsletter */
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+#newsletter p{
+    max-width: 600px;
+}
+#newsletter .input-group{
+    max-width: 500px;
+}
+#newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+/* footer */
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer a{
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: var(--pink)!important;
+}
+
+/* media queries */
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+
+.mostrar_pessoaperdidas{
+  
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.mostrar_documentos_perdidos{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.menu_nav1{
+    background-color: rgba(1, 11, 26, 0.5);
+}
+.menu_nav2{
+    background-color: rgb(0, 4, 8);
+}
+.menu_nav1 a{
+    color: rgb(255, 255, 255);
+}
+
+
+.rodape{
+    background-color: rgb(1, 11, 26);
+}
+
+.menu_nav1 #actual{
+    color: aqua;
+}
+
+.menu_nav2 #actual{
+    color: aqua;
+}
+
+
+#SubMenu1 ul li a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.botaoRedondo{
+    border-radius: 20px;
+    background-color: rgb(2, 60, 148);
+    color: white;
+ }
+.botaoRedondo1{
+   border-radius: 20px;
+   background-color: orangered;
+   color: white;
+}
+.botaoRedondo:hover{
+    background-color: rgb(206, 59, 6);
+    color: white;
+ }
+ .botaoRedondo1:hover{
+    background-color: rgb(206, 59, 6);
+    color: white;
+    
+ }
+
+
+.textoLaranja{
+    color: orangered;
+}
+
+.categoriaDocumento{
+        
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align:center;
+    
+}
+
+.categoriaDocumento a{
+  color:black;
+ text-decoration:none;
+  margin:1%;
+}

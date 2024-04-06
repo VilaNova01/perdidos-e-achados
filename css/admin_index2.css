@@ -1,0 +1,167 @@
+body{
+   background-color: rgb(56, 56, 78);
+}
+.menu1{
+ height: 700px;
+ color: #ffffff;
+ 
+ position: fixed;
+ float: left;
+ 
+ }
+ .menu1 li a{
+    color: #ffffff;
+    border-radius: 20px;
+}
+.menu1 li a:hover{
+background-color: rgb(224, 132, 78);
+}
+.menu1 li{
+ border-radius: 20px;
+ 
+}
+ .principal{
+    float: right; 
+    overflow-y: auto;
+    overflow-x: auto;
+ }
+
+ .caixas{
+
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: center;
+  
+ }
+ .Cor_Fundo_Pricipal{
+    background-color: rgb(21, 21, 34);
+ }
+ .principal .caixas a {
+   
+    background-color: rgb(21, 21, 34);
+    height: 25%;
+    margin-top: 5%;
+    margin-left: 2%;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgb(36, 36, 36);
+    text-decoration: none;
+ }
+ .principal .caixas a:hover{
+   
+   transition: 1s;
+   background-color:rgb(58, 58, 88);
+}
+ .estatistica{
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 10%;
+  margin-left:25%;
+ }
+
+.tabela_cabecalho{
+   background-color: rgb(224, 136, 85);
+   color: #ffffff;
+   font-size: 0.8em;
+}
+.tabela{
+   margin-top: 2%;
+   margin-left: 1%;
+   margin-right: 1%;
+
+
+
+}
+.tabela_linha_informacoes{
+   background-color: rgb(243, 247, 253);
+   color: #3f3a3a;
+   font-size: 0.8em;
+}
+.tabela_linha_informacoes td{
+   color: #949090;
+}
+.tabela_linha_informacoes td:hover{
+   color: #000000;
+}
+.tabela_linha_informacoes:hover{
+  
+   background-color: rgb(212, 227, 250);
+   transition: 0.3s;
+  
+  }
+#btn_relatorio{
+   background-color: rgb(148, 57, 4);
+
+}
+.pagina_actual{
+   background-color: rgb(148, 57, 4);
+
+}
+h5{
+   color: rgb(250, 198, 168);
+    text-transform: uppercase;
+}
+
+ #imgEncontrados:hover{
+   position: absolute;
+   width: 250px;
+   transition: 2s;
+ }
+
+ .btn_cadastrar{
+   background-color: rgb(148, 57, 4);
+   color: #ffffff;
+   padding: 2%;
+   text-decoration: none;
+ }
+ .btn_cadastrar:hover{
+  
+   color: #ffffff;
+
+ }
+ .div_cadastrar{
+   margin-top: 2%;
+   width: 100%;
+   text-align: center;
+ }
+
+
+.div_pesquisar{
+   display: flex;
+   justify-content: end;
+}
+.btn_pesquisar{
+   background-color:rgb(148, 57, 4);
+   color: #ffffff;
+}
+
+.btn_pesquisar{
+   background-color:rgb(148, 57, 4);
+   color: #ffffff;
+}
+.btn_visualizar{
+   background-color: rgb(21, 21, 34);
+   color: #ffffff;
+}
+
+.btn_visualizar:hover{
+   background-color: rgb(21, 21, 34);
+   color: #ffffff;
+}
+.btn_terminar_sessao{
+   background-color: rgb(56, 56, 78);
+}
+.btn_terminar_sessao:hover{
+   background-color: rgb(56, 56, 78);
+}
+.confirmar_encontrado{
+   color: rgb(255, 227, 211);
+
+}
+.confirmar_encontrado_Pessoa_Achada{
+   margin-top: 3%;
+   margin-left: 0.01%;
+   background-color: rgb(21, 21, 34);
+}

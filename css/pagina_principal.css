@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(1, 11, 26);  
+}
+
+.menuNav{
+    background-color: rgb(1, 11, 26); 
+}
+a{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    text-decoration: none;
+}
+
+.menuNav div ul li a{
+    
+    color:#ffffff; 
+    border-width: 1px;
+  
+}
+.menuNav div ul li a:hover{
+
+    color: #b9e2fd;
+}
+
+
+.botaoRedondo1{
+    background-color: rgb(90, 34, 2);
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+.botaoRedondo1:hover{
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.botaoRedondo2{
+    background-color: rgb(53, 21, 2);
+    color: #ffffff;
+    border-radius: 10px;
+  
+}
+.todas{
+  
+    background-color: rgb(56, 37, 25);
+}
+.botaoRedondo2:hover{
+    color: #ffffff;
+}
+.botaoRedondo3{
+    background-color: rgb(3, 31, 80);
+    color: #ffffff;
+    border-radius: 20px;
+    border-color: #ffffff;
+    padding: 0.6% 5%;
+}
+.botaoRedondo3:hover{
+    background-color: rgb(21, 21, 34);
+    color: #ffffff; 
+    border-color: rgb(56, 113, 212);
+
+}
+
+#header{
+    background: url(../fotos/perdidos1.jpg) top/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.categoriaDocumento{
+        
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align:center;
+    color: #b9e2fd;
+  
+}
+h3{
+  
+  color: #ffffff;
+  font-size: 1.2em;
+     
+}
+.categoriaDocumento .ItemCate{
+  display: block;
+  color: #ffffff;
+ text-decoration:none;
+  margin:1%;
+  transition: 1s;
+  width:250px;
+  background-color:rgb(1, 11, 26);
+  border: 5px solid rgb(1, 9, 22);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 2px rgb(1, 9, 22);
+}
+
+.categoriaDocumento .ItemCate:hover{
+
+    
+    border: 5px solid rgb(34, 34, 58);
+  }
+.ItemCate div p{
+
+    color: #ffffff;
+ 
+    
+  }
+.categoriaDocumento div img{
+   /* border-radius: 50px;*/
+   width:100%;
+  }
+.mostrar_documentos_perdidos{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: #ffffff;
+}
+
+.botaoRedondo{
+    background-color: rgb(90, 34, 2);
+    color: white;
+    text-align: center;
+ }
+ 
+ .botaoRedondo:hover{
+    background-color: rgb(90, 34, 2);
+    color: white;
+ }
+
+ .mostrar_pessoaperdidas{
+  
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    color: #ffffff;
+} 
+.sobre_nos{
+    background-color: rgb(1, 11, 26);
+}
+#Maior_Missao{
+    background: url(../fotos/imgPerdido2.png) center/cover no-repeat;  
+    height: 400px;
+}
+
+.rodape{
+    background-color: rgb(1, 11, 26);
+    color: #b9e2fd;
+}
+a{
+    color: #b9e2fd;
+}
+#contactos div span{
+    color: #b9e2fd;
+}
+label{
+    color: #000000;
+}
+.actual{
+    border-top: 1px solid rgb(180, 180, 253);
+    
+}
+.titulos{
+   background-color: rgb(1, 11, 26);
+   
+}
+
+.sobre_nos{
+    color: #b9e2fd;
+    text-align: center;
+}
+span,p{
+    color: #ffffff;
+}
+
+#pessoas_procuradas{
+    margin-right:-6%;
+}
+
+#documentos_procurados{
+    margin-right:-1%;
+}
+
+.categoriaDocumento  ItemCate{
+    width:5px;
+    margin-left:20%;
+    margin-top:2%;
+    text-align:center;
+}
